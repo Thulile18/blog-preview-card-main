@@ -1,3 +1,56 @@
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.welcome-text{
+    color:#7b8c9c;
+    margin-top:5px;
+}
+
+.profile-section{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.profile-avatar{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid white;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.notification{
+    position:relative;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.notification-badge{
+    position:absolute;
+    top:-5px;
+    right:-8px;
+
+    background:#c5d92e;
+    color:white;
+
+    width:18px;
+    height:18px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:10px;
+    font-weight:bold;
+}
 *{
     margin:0;
     padding:0;
